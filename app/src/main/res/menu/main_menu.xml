@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_settings_btn"
+        android:title="@string/account_settings"
+        android:visible="false"/>
+
+    <item android:id="@+id/main_reminder_btn"
+        android:title="@string/create_reminder"
+        android:visible="false"></item>
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"
+        android:title="Search..."
+        app:showAsAction="always"
+        ></item>
+
+</menu>
